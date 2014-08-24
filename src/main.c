@@ -42,17 +42,17 @@ void process_tuple(Tuple *t)
       break;
     case KEY_ALT:
       //Altitude received
-      snprintf(altitude_buffer, sizeof("abababababababab"), "Altitude: %d", value);
+      snprintf(altitude_buffer, sizeof("abababababababababababababababab"), "Altitude: %d", value);
       text_layer_set_text(altitude_layer, (char*) &altitude_buffer);
       break;
     case KEY_APO:
       //Apoapsis received
-      snprintf(apoapsis_buffer, sizeof("abababababababab"), "Apoapsis: %d", value);
+      snprintf(apoapsis_buffer, sizeof("abababababababababababababababab"), "Apoapsis: %d", value);
       text_layer_set_text(apoapsis_layer, (char*) &apoapsis_buffer);
       break;
     case KEY_PER:
-      //Apoapsis received
-      snprintf(periapsis_buffer, sizeof("abababababababab"), "Periapsis: %d", value);
+      //Periapsis received
+      snprintf(periapsis_buffer, sizeof("abababababababababababababababab"), "Periapsis: %d", value);
       text_layer_set_text(periapsis_layer, (char*) &periapsis_buffer);
       break;
   }
@@ -88,24 +88,24 @@ void window_load(Window *window)
 	text_layer_set_text(name_layer, "No Connection");
 	
 	// Altitude display
-	altitude_layer = text_layer_create(GRect(3, 20, 144, 144));
+	altitude_layer = text_layer_create(GRect(3, 20, 168, 144));
 	text_layer_set_background_color(altitude_layer, GColorClear);
 	text_layer_set_text_color(altitude_layer, GColorBlack);
 	text_layer_set_font(altitude_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
 	text_layer_set_text(altitude_layer, "Altitude: N/A");
 	
 	// Apoapsis display
-	apoapsis_layer = text_layer_create(GRect(3, 40, 144, 144));
+	apoapsis_layer = text_layer_create(GRect(3, 40, 168, 144));
 	text_layer_set_background_color(apoapsis_layer, GColorClear);
 	text_layer_set_text_color(apoapsis_layer, GColorBlack);
 	text_layer_set_font(apoapsis_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
 	text_layer_set_text(apoapsis_layer, "Apoapsis: N/A");
 	
-	periapsis_layer = text_layer_create(GRect(3, 60, 144, 144));
+	periapsis_layer = text_layer_create(GRect(3, 60, 168, 144));
 	text_layer_set_background_color(periapsis_layer, GColorClear);
 	text_layer_set_text_color(periapsis_layer, GColorBlack);
 	text_layer_set_font(periapsis_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
-	text_layer_set_text(periapsis_layer, "Periapsis: N/A");
+	text_layer_set_text(periapsis_layer, "Periap: N/A");
 
 	// The top border lines
 	topborder_bitmap = gbitmap_create_with_resource(RESOURCE_ID_TOPBORDER);

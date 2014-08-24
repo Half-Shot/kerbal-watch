@@ -13,7 +13,7 @@ var getData = function() {
 	var json = JSON.parse(response);
 	
 	//Extract the data
-	var altitude = Math.round(json.altitude);
+	var altitude = Math.round(json.vertaltitude);
 	var apoapsis = Math.round(json.apoapsis);
 	var periapsis = Math.round(json.periapsis);
 	var shipname = json.shipname;
