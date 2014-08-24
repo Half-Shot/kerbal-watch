@@ -1,0 +1,36 @@
+{
+    "appKeys": {
+        "KEY_ALT": 1,
+        "KEY_APO": 2,
+        "KEY_NAME": 0,
+        "KEY_PER": 3
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "TronLaser",
+    "longName": "KerbalWatch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/logo.png",
+                "menuIcon": true,
+                "name": "MENULOGO",
+                "type": "png"
+            },
+            {
+                "file": "images/topborder.png",
+                "name": "TOPBORDER",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "KerbalWatch",
+    "uuid": "32487ea5-1be2-4412-a3fe-96b4bda1e27a",
+    "versionCode": 1,
+    "versionLabel": "1",
+    "watchapp": {
+        "watchface": false
+    }
+}
