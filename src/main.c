@@ -153,6 +153,8 @@ void send_int(uint8_t key, uint8_t cmd)
 
 void tick_callback(struct tm *tick_time, TimeUnits units_changed)
 {
+	strftime(timebuffer, sizeof("00:00:00"), "%H:%M:%S", tick_time);
+	text_layer_set_text(clock_layer, timebuffer);
 	//Every five minutes
 	if(tick_time->tm_sec % 2 == 0)
 	{

@@ -5,6 +5,17 @@ function HTTPGET(url) {
 	return req.responseText;
 }
 
+var connection = new WebSocket('ws://192.168.1.95:8085/telemachus/datalink');
+
+connection.onopen = function(){
+   /*Send a small message to the console once the connection is established */
+   console.log('Connection open!');
+};
+
+connection.onclose = function(){
+   console.log('Connection closed');
+};
+
 var getData = function() {
 	//Get weather info
 	var response = HTTPGET("http://192.168.1.95:8085/telemachus/datalink?vertaltitude=v.altitude&gforce=v.geeForce&paused=p.paused&shipname=v.body&periapsis=o.PeA&apoapsis=o.ApA");
