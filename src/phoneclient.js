@@ -32,11 +32,9 @@ connection.onmessage = function(e){
 };
 
 var getData = function() {
-	//Get info
-	var response = HTTPGET("ws://192.168.1.95:8085/telemachus/datalink");
 		
 	//Convert to JSON
-	var json = JSON.parse(response);
+	var json = JSON.parse(e.data);
 	
 	//Extract the data
 	var altitude = Math.round(json.vertaltitude);
@@ -55,7 +53,7 @@ var getData = function() {
 Pebble.addEventListener("ready",
   function(e) {
     //App is ready to receive JS messages
-		openconnection();
+	openconnection();
     getData();
   }
 );
