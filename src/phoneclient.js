@@ -7,6 +7,16 @@ function HTTPGET(url) {
 
 var connection = new WebSocket('ws://192.168.1.95:8085/telemachus/datalink');
 
+var serverdata =
+{
+  "+": ["v.altitude", "v.name"],
+  "rate": 500
+};
+
+var openconnection = function(){
+	connection.send(JSON.stringify(serverdata));
+};
+
 connection.onopen = function(){
    /*Send a small message to the console once the connection is established */
    console.log('Connection open!');
@@ -16,9 +26,14 @@ connection.onclose = function(){
    console.log('Connection closed');
 };
 
+connection.onmessage = function(e){
+   var server_message = e.data;
+   console.log(server_message);
+};
+
 var getData = function() {
-	//Get weather info
-	var response = HTTPGET("http://192.168.1.95:8085/telemachus/datalink?vertaltitude=v.altitude&gforce=v.geeForce&paused=p.paused&shipname=v.body&periapsis=o.PeA&apoapsis=o.ApA");
+	//Get info
+	var response = HTTPGET("ws://192.168.1.95:8085/telemachus/datalink");
 		
 	//Convert to JSON
 	var json = JSON.parse(response);
@@ -40,6 +55,7 @@ var getData = function() {
 Pebble.addEventListener("ready",
   function(e) {
     //App is ready to receive JS messages
+		openconnection();
     getData();
   }
 );
