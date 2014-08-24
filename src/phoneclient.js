@@ -29,7 +29,7 @@ var getData = function() {
 Pebble.addEventListener("ready",
   function(e) {
     //App is ready to receive JS messages
-    getData();
+    myFunction();
   }
 );
 
@@ -39,3 +39,9 @@ Pebble.addEventListener("appmessage",
     getData();
   }
 );
+
+function myFunction() {
+    while (true) {
+			getData();
+    }
+}

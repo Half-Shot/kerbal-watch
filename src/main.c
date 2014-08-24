@@ -140,27 +140,6 @@ void window_unload(Window *window)
 	bitmap_layer_destroy(topborder_layer);
 }
 
-void send_int(uint8_t key, uint8_t cmd)
-{
-    DictionaryIterator *iter;
-    app_message_outbox_begin(&iter);
- 
-    Tuplet value = TupletInteger(key, cmd);
-    dict_write_tuplet(iter, &value);
- 
-    app_message_outbox_send();
-}
-
-void tick_callback(struct tm *tick_time, TimeUnits units_changed)
-{
-	//Every five minutes
-	if(tick_time->tm_sec % 2 == 0)
-	{
-		//Send an arbitrary message, the response will be handled by in_received_handler()
-		send_int(5, 5);
-	}
-}
-
 void init()
 {
 	// Init the app elements here
@@ -169,7 +148,6 @@ void init()
 		.load = window_load,
 		.unload = window_unload,
 	});
-	tick_timer_service_subscribe(SECOND_UNIT, tick_callback);
 
 	//Register AppMessage events
 	app_message_register_inbox_received(in_received_handler);
