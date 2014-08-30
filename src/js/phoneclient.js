@@ -1,6 +1,9 @@
-var WebSocketTest()
-{
-	var ws = new WebSocket("ws://192.168.1.95:8085/datalink");
+var socket = "ws://192.168.1.95:8085/datalink";
+
+socket.onopen = function(event) {
+	console.log("Connected to: " + event.currentTarget.URL);
+	socket.send("{"+": ["v.altitude"]}");
+
 
 var getData = function() {
 		
@@ -21,14 +24,10 @@ var getData = function() {
 	console.log("SENT THE DATA!");
 };
 
-var test = function(){
-	console.log("It's working... for now");
-}
-
 Pebble.addEventListener("ready",
   function(e) {
     //App is ready to receive JS messages
-    test();
+    getData();
   }
 );
 

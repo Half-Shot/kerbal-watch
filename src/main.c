@@ -156,7 +156,7 @@ void tick_callback(struct tm *tick_time, TimeUnits units_changed)
 	strftime(timebuffer, sizeof("00:00:00"), "%H:%M:%S", tick_time);
 	text_layer_set_text(clock_layer, timebuffer);
 	//Every five minutes
-	if(tick_time->tm_sec % 2 == 0)
+	if(tick_time->tm_sec % 5 == 0)
 	{
 		//Send an arbitrary message, the response will be handled by in_received_handler()
 		send_int(5, 5);
