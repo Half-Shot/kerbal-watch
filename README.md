@@ -7,5 +7,7 @@ Branches
 ========
 
 Master = Stable
+
 Testing = Still being worked on
+
 Anything else = Experiments
