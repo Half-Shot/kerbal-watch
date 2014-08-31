@@ -10,7 +10,6 @@ enum {
   KEY_ALT = 1,					// Altitude
   KEY_APO = 2,					// Apoapsis
   KEY_PER = 3,					// Periapsis
-  KEY_PAUSE = 4,
 };
 
 char timebuffer[] = "00:00:00", name_buffer[64], altitude_buffer[32], apoapsis_buffer[32], periapsis_buffer[32];
@@ -141,6 +140,8 @@ void window_unload(Window *window)
 	bitmap_layer_destroy(topborder_layer);
 }
 
+<<<<<<< HEAD
+=======
 void send_int(uint8_t key, uint8_t cmd)
 {
     DictionaryIterator *iter;
@@ -164,6 +165,7 @@ void tick_callback(struct tm *tick_time, TimeUnits units_changed)
 	}
 }
 
+>>>>>>> websocket-test
 void init()
 {
 	// Init the app elements here
@@ -172,7 +174,6 @@ void init()
 		.load = window_load,
 		.unload = window_unload,
 	});
-	tick_timer_service_subscribe(SECOND_UNIT, tick_callback);
 
 	//Register AppMessage events
 	app_message_register_inbox_received(in_received_handler);

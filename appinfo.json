@@ -3,7 +3,8 @@
         "KEY_ALT": 1,
         "KEY_APO": 2,
         "KEY_NAME": 0,
-        "KEY_PER": 3
+        "KEY_PER": 3,
+	"KEY_PAUSE": 4
     },
     "capabilities": [
         ""
