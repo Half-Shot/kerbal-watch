@@ -1,10 +1,11 @@
-var WebSocketTest()
-{
-	var ws = new WebSocket("ws://192.168.1.95:8085/datalink");
+var socket = "ws://192.168.1.95:8085/datalink";
+
+socket.onopen = function(event) {
+	console.log("Connected to: " + event.currentTarget.URL);
+	socket.send("{"+": ["v.altitude"]}");
+
 
 var getData = function() {
-	//Get weather info
-	var response = HTTPGET("http://192.168.1.95:8085/telemachus/datalink?vertaltitude=v.altitude&gforce=v.geeForce&paused=p.paused&shipname=v.body&periapsis=o.PeA&apoapsis=o.ApA");
 		
 	//Convert to JSON
 	var json = JSON.parse(response);

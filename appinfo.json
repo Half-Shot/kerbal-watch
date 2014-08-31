@@ -14,14 +14,14 @@
     "resources": {
         "media": [
             {
-                "file": "images/logo.png",
-                "menuIcon": true,
-                "name": "MENULOGO",
+                "file": "images/topborder.png",
+                "name": "TOPBORDER",
                 "type": "png"
             },
             {
-                "file": "images/topborder.png",
-                "name": "TOPBORDER",
+                "file": "images/logo.png",
+                "menuIcon": true,
+                "name": "MENULOGO",
                 "type": "png"
             }
         ]

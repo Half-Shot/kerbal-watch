@@ -1,0 +1,886 @@
+Archive member included because of file (symbol)
+
+/home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                              src/main.c.9.o (app_event_loop)
+
+Allocating common symbols
+Common symbol       size              file
+
+altitude_layer      0x4               src/main.c.9.o
+name_buffer         0x40              src/main.c.9.o
+periapsis_layer     0x4               src/main.c.9.o
+clock_layer         0x4               src/main.c.9.o
+altitude_buffer     0x20              src/main.c.9.o
+apoapsis_layer      0x4               src/main.c.9.o
+name_layer          0x4               src/main.c.9.o
+apoapsis_buffer     0x20              src/main.c.9.o
+periapsis_buffer    0x20              src/main.c.9.o
+topborder_layer     0x4               src/main.c.9.o
+topborder_bitmap    0x4               src/main.c.9.o
+window              0x4               src/main.c.9.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .bss           0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .init          0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .fini          0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .text          0x0000000000000000       0xc8 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .bss           0x0000000000000000       0x1c /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .text          0x0000000000000000        0x0 src/main.c.9.o
+ .bss           0x0000000000000000        0x0 src/main.c.9.o
+ .text          0x0000000000000000        0x0 appinfo.auto.c.9.o
+ .bss           0x0000000000000000        0x0 appinfo.auto.c.9.o
+ .bss           0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_data_service_subscribe__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_data_service_unsubscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_service_peek
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_service_set_samples_per_update
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_service_set_sampling_rate
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_tap_service_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_tap_service_unsubscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_add_to_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_clear_icon
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_get_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_remove_from_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_set_background_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_set_click_config_provider
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_set_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.action_bar_layer_set_icon
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_get_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_is_scheduled
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_schedule
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_set_curve
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_set_delay
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_set_duration
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_set_handlers
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_set_implementation
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_unschedule
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.animation_unschedule_all
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_comm_get_sniff_interval
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_comm_set_sniff_interval
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_log  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_deregister_callbacks
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_sync_deinit
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_sync_get
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_sync_init
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_sync_set
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_timer_cancel
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_timer_register
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_timer_reschedule
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.atan2_lookup
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.atoi     0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.atol     0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.battery_state_service_peek
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.battery_state_service_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.battery_state_service_unsubscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bitmap_layer_set_alignment
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bitmap_layer_set_background_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bitmap_layer_set_compositing_mode
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bluetooth_connection_service_peek
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bluetooth_connection_service_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bluetooth_connection_service_unsubscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.click_number_of_clicks_counted
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.click_recognizer_get_button_id
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.clock_copy_time_string
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.clock_is_24h_style
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.cos_lookup
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.data_logging_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.data_logging_finish
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.data_logging_log
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_calc_buffer_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_calc_buffer_size_from_tuplets
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_find
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_merge
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_read_begin_from_buffer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_serialize_tuplets
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_serialize_tuplets_to_buffer__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_serialize_tuplets_to_buffer_with_iter
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_begin
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_cstring
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_end
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_int
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_int16
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_int32
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_int8
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_uint16
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_uint32
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_write_uint8
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.fonts_load_custom_font
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.fonts_unload_custom_font
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.free     0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gbitmap_create_as_sub_bitmap
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gbitmap_create_with_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gmtime   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_draw_filled
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_draw_outline
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_move_to
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpath_rotate_to
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gpoint_equal
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_context_set_compositing_mode
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_context_set_fill_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_context_set_stroke_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_context_set_text_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_bitmap_in_rect
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_circle
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_line
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_pixel
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_rect
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_round_rect
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_fill_circle
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_fill_rect
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_text_layout_get_max_used_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_align
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_center_point
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_clip
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_contains_point
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_crop
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_equal
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_is_empty
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.grect_standardize
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gsize_equal
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.inverter_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.inverter_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.inverter_layer_get_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_create_with_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_bounds
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_clips
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_frame
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_hidden
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_get_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_insert_above_sibling
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_insert_below_sibling
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_mark_dirty
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_remove_child_layers
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_remove_from_parent
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_set_bounds
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_set_clips
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_set_frame
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_set_hidden
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.layer_set_update_proc
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.light_enable
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.light_enable_interaction
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.malloc   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.memcpy   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.memmove  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_cell_basic_draw
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_cell_basic_header_draw
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_cell_title_draw
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_index_compare
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_get_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_get_scroll_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_get_selected_index
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_reload_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_set_callbacks__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_set_click_config_onto_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_set_selected_index
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_set_selected_next
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_get_value
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_set_label
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_set_max
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_set_min
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_set_step_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_set_value
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_delete
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_exists
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_get_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_bool
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_data__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_int
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_string__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_write_bool
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_write_data__deprecated
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_write_int
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_write_string
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_create_layer_frame
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_update_gpoint
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_update_grect
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.property_animation_update_int16
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.psleep   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rand     0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.resource_get_handle
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.resource_load
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.resource_load_byte_range
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.resource_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_layer_increment_angle
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_layer_set_angle
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_layer_set_corner_clip_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_set_compositing_mode
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.rot_bitmap_set_src_ic
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_add_child
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_get_content_offset
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_get_content_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_get_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_get_shadow_hidden
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_scroll_down_click_handler
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_scroll_up_click_handler
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_callbacks
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_click_config_onto_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_content_offset
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_content_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_frame
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.scroll_layer_set_shadow_hidden
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_create
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_destroy
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_get_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_get_selected_index
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_set_selected_index
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.sin_lookup
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.srand    0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strcat   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strcmp   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strlen   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strncat  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strncmp  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.strncpy  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.text_layer_get_content_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.text_layer_get_text
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.text_layer_set_overflow_mode
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.text_layer_set_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.text_layer_set_text_alignment
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.time_ms  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.vibes_cancel
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.vibes_double_pulse
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.vibes_enqueue_custom_pattern
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.vibes_long_pulse
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.vibes_short_pulse
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_get_click_config_provider
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_get_fullscreen
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_is_loaded
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_background_color
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_click_config_provider
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_click_config_provider_with_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_status_bar_icon
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_stack_contains_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_stack_get_top_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_stack_pop
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_stack_pop_all
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_stack_remove
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_focus_service_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_focus_service_unsubscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_get_user_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_user_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_get_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_register_inbox_dropped
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_register_outbox_failed
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_register_outbox_sent
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.app_message_set_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_long_click_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_multi_click_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_raw_click_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_set_click_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_single_click_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_single_repeating_click_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_draw_text
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_serialize_tuplets_to_buffer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_read_string
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.persist_write_data
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.dict_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.graphics_text_layout_get_content_size
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.simple_menu_layer_get_menu_layer
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.accel_data_service_subscribe
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.calloc   0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.bitmap_layer_get_bitmap
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.menu_layer_set_callbacks
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.window_get_click_config_context
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.number_window_get_window
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.realloc  0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.gbitmap_create_blank
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text.click_recognizer_is_repeating
+                0x0000000000000000        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .text          0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .bss           0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .jcr           0x0000000000000000        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .text          0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .bss           0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .init          0x0000000000000000        0x8 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .fini          0x0000000000000000        0x8 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+APP              0x0000000000000000 0x0000000000006000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+LOAD src/main.c.9.o
+LOAD appinfo.auto.c.9.o
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a
+START GROUP
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+LOAD /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+
+.header         0x0000000000000000       0x82
+ *(.pbl_header)
+ .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.9.o
+                0x0000000000000000                __pbl_app_info
+
+.text           0x0000000000000084      0x7c2
+ *(.text)
+ .text          0x0000000000000084       0x14 /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ *(.text.*)
+ .text.window_unload
+                0x0000000000000098       0x70 src/main.c.9.o
+                0x0000000000000098                window_unload
+ .text.tick_handler
+                0x0000000000000108       0x38 src/main.c.9.o
+                0x0000000000000108                tick_handler
+ .text.window_load
+                0x0000000000000140      0x270 src/main.c.9.o
+                0x0000000000000140                window_load
+ .text.process_tuple
+                0x00000000000003b0       0xc0 src/main.c.9.o
+                0x00000000000003b0                process_tuple
+ .text.in_received_handler
+                0x0000000000000470       0x1a src/main.c.9.o
+ .text.send_int
+                0x000000000000048a       0x2e src/main.c.9.o
+                0x000000000000048a                send_int
+ .text.tick_callback
+                0x00000000000004b8       0x40 src/main.c.9.o
+                0x00000000000004b8                tick_callback
+ .text.init     0x00000000000004f8       0x8c src/main.c.9.o
+                0x00000000000004f8                init
+ .text.deinit   0x0000000000000584       0x20 src/main.c.9.o
+                0x0000000000000584                deinit
+ .text.startup.main
+                0x00000000000005a4       0x12 src/main.c.9.o
+                0x00000000000005a4                main
+ *fill*         0x00000000000005b6        0x2 
+ .text.app_event_loop
+                0x00000000000005b8        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005b8                app_event_loop
+ .text.app_message_open
+                0x00000000000005c4        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005c4                app_message_open
+ .text.bitmap_layer_create
+                0x00000000000005d0        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005d0                bitmap_layer_create
+ .text.bitmap_layer_destroy
+                0x00000000000005dc        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005dc                bitmap_layer_destroy
+ .text.bitmap_layer_get_layer
+                0x00000000000005e8        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005e8                bitmap_layer_get_layer
+ .text.bitmap_layer_set_bitmap
+                0x00000000000005f4        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000005f4                bitmap_layer_set_bitmap
+ .text.dict_read_first
+                0x0000000000000600        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000600                dict_read_first
+ .text.dict_read_next
+                0x000000000000060c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000060c                dict_read_next
+ .text.dict_write_tuplet
+                0x0000000000000618        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000618                dict_write_tuplet
+ .text.fonts_get_system_font
+                0x0000000000000624        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000624                fonts_get_system_font
+ .text.gbitmap_create_with_resource
+                0x0000000000000630        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000630                gbitmap_create_with_resource
+ .text.gbitmap_destroy
+                0x000000000000063c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000063c                gbitmap_destroy
+ .text.layer_add_child
+                0x0000000000000648        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000648                layer_add_child
+ .text.localtime
+                0x0000000000000654        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000654                localtime
+ .text.memset   0x0000000000000660        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000660                memset
+ .text.snprintf
+                0x000000000000066c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000066c                snprintf
+ .text.strcpy   0x0000000000000678        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000678                strcpy
+ .text.strftime
+                0x0000000000000684        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000684                strftime
+ .text.text_layer_create
+                0x0000000000000690        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000690                text_layer_create
+ .text.text_layer_destroy
+                0x000000000000069c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000069c                text_layer_destroy
+ .text.text_layer_get_layer
+                0x00000000000006a8        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006a8                text_layer_get_layer
+ .text.text_layer_set_background_color
+                0x00000000000006b4        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006b4                text_layer_set_background_color
+ .text.text_layer_set_font
+                0x00000000000006c0        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006c0                text_layer_set_font
+ .text.text_layer_set_text
+                0x00000000000006cc        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006cc                text_layer_set_text
+ .text.text_layer_set_text_color
+                0x00000000000006d8        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006d8                text_layer_set_text_color
+ .text.tick_timer_service_subscribe
+                0x00000000000006e4        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006e4                tick_timer_service_subscribe
+ .text.tick_timer_service_unsubscribe
+                0x00000000000006f0        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006f0                tick_timer_service_unsubscribe
+ .text.time     0x00000000000006fc        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x00000000000006fc                time
+ .text.window_create
+                0x0000000000000708        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000708                window_create
+ .text.window_destroy
+                0x0000000000000714        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000714                window_destroy
+ .text.window_get_root_layer
+                0x0000000000000720        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000720                window_get_root_layer
+ .text.window_set_fullscreen
+                0x000000000000072c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000072c                window_set_fullscreen
+ .text.window_set_window_handlers
+                0x0000000000000738        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000738                window_set_window_handlers
+ .text.window_stack_push
+                0x0000000000000744        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000744                window_stack_push
+ .text.app_message_inbox_size_maximum
+                0x0000000000000750        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000750                app_message_inbox_size_maximum
+ .text.app_message_outbox_begin
+                0x000000000000075c        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x000000000000075c                app_message_outbox_begin
+ .text.app_message_outbox_send
+                0x0000000000000768        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000768                app_message_outbox_send
+ .text.app_message_outbox_size_maximum
+                0x0000000000000774        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000774                app_message_outbox_size_maximum
+ .text.app_message_register_inbox_received
+                0x0000000000000780        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+                0x0000000000000780                app_message_register_inbox_received
+ *(.rodata)
+ .rodata        0x000000000000078c       0x30 src/main.c.9.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000000007bc       0x8a src/main.c.9.o
+
+.glue_7         0x0000000000000848        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000848        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000848        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000848        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000000848        0x0
+ .iplt          0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.rel.dyn        0x0000000000000848        0x0
+ .rel.iplt      0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .rel.got       0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.data           0x0000000000000848        0xd
+ *(.data)
+ .data          0x0000000000000848        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000848        0x4 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000848                __dso_handle
+ .data          0x000000000000084c        0x0 src/main.c.9.o
+ .data          0x000000000000084c        0x0 appinfo.auto.c.9.o
+ .data          0x000000000000084c        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .data          0x000000000000084c        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x000000000000084c        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ *(.data.*)
+ .data.timebuffer
+                0x000000000000084c        0x9 src/main.c.9.o
+                0x000000000000084c                timebuffer
+
+.igot.plt       0x0000000000000858        0x0
+ .igot.plt      0x0000000000000000        0x0 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.got            0x0000000000000858       0x30
+ .got           0x0000000000000858       0x30 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.got.plt        0x0000000000000888        0xc
+ .got.plt       0x0000000000000888        0xc /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000888                _GLOBAL_OFFSET_TABLE_
+
+.bss            0x0000000000000894       0xc0
+ *(.bss)
+ *(.bss.*)
+ COMMON         0x0000000000000894       0xc0 src/main.c.9.o
+                0x0000000000000894                altitude_layer
+                0x0000000000000898                name_buffer
+                0x00000000000008d8                periapsis_layer
+                0x00000000000008dc                clock_layer
+                0x00000000000008e0                altitude_buffer
+                0x0000000000000900                apoapsis_layer
+                0x0000000000000904                name_layer
+                0x0000000000000908                apoapsis_buffer
+                0x0000000000000928                periapsis_buffer
+                0x0000000000000948                topborder_layer
+                0x000000000000094c                topborder_bitmap
+                0x0000000000000950                window
+
+DISCARD
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+ *(.eh_frame)
+OUTPUT(/home/kieran/pebble-dev/PebbleSDK-2.4.1/kerbal-watch/build/pebble-app.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x27
+ .ARM.attributes
+                0x0000000000000000       0x19 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .ARM.attributes
+                0x0000000000000019       0x29 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .ARM.attributes
+                0x0000000000000042       0x33 src/main.c.9.o
+ .ARM.attributes
+                0x0000000000000075       0x33 appinfo.auto.c.9.o
+ .ARM.attributes
+                0x00000000000000a8       0x21 /home/kieran/pebble-dev/PebbleSDK-2.4.1/Pebble/lib/libpebble.a(tmpO4BPkUpebble.o)
+ .ARM.attributes
+                0x00000000000000c9       0x29 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .ARM.attributes
+                0x00000000000000f2       0x19 /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+
+.comment        0x0000000000000000       0x4e
+ .comment       0x0000000000000000       0x4e /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                                         0x4f (size before relaxing)
+ .comment       0x0000000000000000       0x4f src/main.c.9.o
+ .comment       0x0000000000000000       0x4f appinfo.auto.c.9.o
+ .comment       0x0000000000000000       0x4f /home/kieran/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+
+.debug_info     0x0000000000000000     0x1814
+ .debug_info    0x0000000000000000     0x14e6 src/main.c.9.o
+ .debug_info    0x00000000000014e6      0x32e appinfo.auto.c.9.o
+
+.debug_abbrev   0x0000000000000000      0x3a8
+ .debug_abbrev  0x0000000000000000      0x2fd src/main.c.9.o
+ .debug_abbrev  0x00000000000002fd       0xab appinfo.auto.c.9.o
+
+.debug_loc      0x0000000000000000      0x35e
+ .debug_loc     0x0000000000000000      0x35e src/main.c.9.o
+
+.debug_aranges  0x0000000000000000       0x80
+ .debug_aranges
+                0x0000000000000000       0x68 src/main.c.9.o
+ .debug_aranges
+                0x0000000000000068       0x18 appinfo.auto.c.9.o
+
+.debug_ranges   0x0000000000000000       0x58
+ .debug_ranges  0x0000000000000000       0x58 src/main.c.9.o
+
+.debug_line     0x0000000000000000      0x4cc
+ .debug_line    0x0000000000000000      0x3b0 src/main.c.9.o
+ .debug_line    0x00000000000003b0      0x11c appinfo.auto.c.9.o
+
+.debug_str      0x0000000000000000      0xb22
+ .debug_str     0x0000000000000000      0x9cc src/main.c.9.o
+                                        0xa73 (size before relaxing)
+ .debug_str     0x00000000000009cc      0x156 appinfo.auto.c.9.o
+                                        0x2b6 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x12c
+ .debug_frame   0x0000000000000000      0x12c src/main.c.9.o
