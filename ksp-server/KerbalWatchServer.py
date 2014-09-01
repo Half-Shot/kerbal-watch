@@ -4,6 +4,7 @@ import tornado.ioloop
 import tornado.web
 import urllib2
 import json
+import time
  
 jsonurl = ("http://localhost:8085/telemachus/datalink?vertaltitude=v.altitude&gforce=v.geeForce&paused=p.paused&shipname=v.body&periapsis=o.PeA&apoapsis=o.ApA")
 
@@ -34,3 +35,9 @@ if __name__ == "__main__":
     http_server = tornado.httpserver.HTTPServer(application)
     http_server.listen(8090)
     tornado.ioloop.IOLoop.instance().start()
+
+while True:
+	#time.sleep(0.25)
+	data = json.load(urllib2.urlopen(jsonurl))
+	ws.write_message(data)
+	

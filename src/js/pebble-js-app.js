@@ -7,7 +7,7 @@ ws.onmessage = function(e){
 	getData();
 }
 
-var getData = function(e) {
+var getData = function() {
 	
 	console.log("Parsing data...");
 
@@ -27,6 +27,7 @@ var getData = function(e) {
 	//Send data to watch for display
 	Pebble.sendAppMessage(dict);
 	console.log("Sent data to Pebble");
+	ws.send("GET")
 };
 
 Pebble.addEventListener("ready",
@@ -41,6 +42,6 @@ Pebble.addEventListener("appmessage",
   function(e) {
     //Watch wants new data!
     console.log("Recieved request from Pebble");
-    ws.send('GET');
+    //ws.send('GET');
   }
 );

@@ -1,0 +1,10 @@
+Requirements
+============
+
+tornado
+urllib2
+json
+
+All of these packages should be availible using 'pip' or come with Python 2 already.
+
+Must be run using Python 2.7
