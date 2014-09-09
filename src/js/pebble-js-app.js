@@ -1,6 +1,6 @@
 var initialized = false;
 var ws = new WebSocket('ws://192.168.1.95:8090/kerbalwatch');
-var repeater = setInterval(function () {getData()}, 50);
+var repeater = setInterval(function () {getData()}, 100);
 var response;
 
 ws.onmessage = function(e){
