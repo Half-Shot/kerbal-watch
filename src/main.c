@@ -141,27 +141,10 @@ void window_unload(Window *window)
 	bitmap_layer_destroy(topborder_layer);
 }
 
-void send_int(uint8_t key, uint8_t cmd)
-{
-    DictionaryIterator *iter;
-    app_message_outbox_begin(&iter);
- 
-    Tuplet value = TupletInteger(key, cmd);
-    dict_write_tuplet(iter, &value);
- 
-    app_message_outbox_send();
-}
-
 void tick_callback(struct tm *tick_time, TimeUnits units_changed)
 {
 	strftime(timebuffer, sizeof("00:00:00"), "%H:%M:%S", tick_time);
 	text_layer_set_text(clock_layer, timebuffer);
-	//Every five minutes
-	if(tick_time->tm_sec % 1 == 0)
-	{
-		//Send an arbitrary message, the response will be handled by in_received_handler()
-		send_int(5, 5);
-	}
 }
 
 void init()

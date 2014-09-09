@@ -1,10 +1,11 @@
-var ws = new WebSocket('ws://192.168.43.4:8090/kerbalwatch');
+var initialized = false;
+var ws = new WebSocket('ws://192.168.1.95:8090/kerbalwatch');
+var repeater = setInterval(function () {getData()}, 50);
 var response;
 
 ws.onmessage = function(e){
 	response = e.data;
 	console.log("Recieved data");
-	getData();
 }
 
 var getData = function() {
@@ -34,7 +35,7 @@ Pebble.addEventListener("ready",
   function(e) {
     //App is ready to receive JS messages
     console.log("Pebble is READY");
-    ws.send("START")
+	initialized = true;
   }
 );
 
@@ -42,6 +43,10 @@ Pebble.addEventListener("appmessage",
   function(e) {
     //Watch wants new data!
     console.log("Recieved request from Pebble");
-    //ws.send('GET');
   }
 );
+
+Pebble.addEventListener("showConfiguration", function() {
+  console.log("showing configuration");
+  Pebble.openURL('http://largepixelcollider.net/kerbalwatch/configurable.html');
+});

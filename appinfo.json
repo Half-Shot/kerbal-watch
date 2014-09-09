@@ -7,7 +7,7 @@
 	"KEY_PAUSE": 4
     },
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "TronLaser",
     "longName": "KerbalWatch",
