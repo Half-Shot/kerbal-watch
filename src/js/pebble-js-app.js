@@ -47,6 +47,6 @@ Pebble.addEventListener("appmessage",
 );
 
 Pebble.addEventListener("showConfiguration", function() {
-  console.log("showing configuration");
+  console.log("Showing configuration");
   Pebble.openURL('http://largepixelcollider.net/kerbalwatch/configurable.html');
 });

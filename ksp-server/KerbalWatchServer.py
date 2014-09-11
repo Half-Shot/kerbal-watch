@@ -12,10 +12,14 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 	def open(self):
 		print ('New connection')
 		self.write_message(data)
-      
+
 	def on_message(self, message):
 		print 'Message received: %s' % message
-		data = json.load(urllib2.urlopen(jsonurl))
+		try:
+			data = json.load(urllib2.urlopen(jsonurl))
+		except:
+			print ("Could not connect to game! Have you mounted the Telemachus part on your ship?")
+			data = ("NOCONNECTION")
 		self.write_message(data)
 		print ("Sent data back")
  
@@ -28,7 +32,11 @@ application = tornado.web.Application([
  
 if __name__ == "__main__":
 	print ("\nServer is running")
-	data = json.load(urllib2.urlopen(jsonurl))
+	try:
+		data = json.load(urllib2.urlopen(jsonurl))
+	except:
+		print ("Could not connect to game! Have you mounted the Telemachus part on your ship?")
+		data = ("NOCONNECTION")
 	http_server = tornado.httpserver.HTTPServer(application)
 	http_server.listen(8090)
 	tornado.ioloop.IOLoop.instance().start()
