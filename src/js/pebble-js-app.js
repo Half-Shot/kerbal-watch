@@ -1,15 +1,16 @@
 var initialized = false;
 var ws = new WebSocket('ws://192.168.1.95:8090/kerbalwatch');
-var repeater = setInterval(function () {getData()}, 100);
+var getDataLoop = setInterval(function () {getData()}, 200);
+var updatePebbleLoop = setInterval(function () {updatePebble()}, 100);
 var response;
+var dict;
 
 ws.onmessage = function(e){
 	response = e.data;
 	console.log("Recieved data");
 }
 
-var getData = function() {
-	
+var getData = function(e) {
 	console.log("Parsing data...");
 
 	//Convert to JSON
@@ -24,12 +25,13 @@ var getData = function() {
 	
 	//Construct a key-value dictionary	
 	var dict = {"KEY_NAME" : shipname, "KEY_ALT": altitude, "KEY_APO" : apoapsis, "KEY_PER" : periapsis, "KEY_PAUSE" : paused};
-	
-	//Send data to watch for display
-	Pebble.sendAppMessage(dict);
-	console.log("Sent data to Pebble");
 	ws.send("GET")
 };
+
+var updatePebble = function(dict) {
+	Pebble.sendAppMessage(dict);
+	console.log("Sent data to Pebble");
+}
 
 Pebble.addEventListener("ready",
   function(e) {
